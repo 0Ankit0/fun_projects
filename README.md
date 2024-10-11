@@ -8,7 +8,7 @@ This repository contains various small projects I'm working on for fun. They cov
 
 ### Current Projects
 
-- [Project 1: Name](TemplateWizard/)
+- [Project 1: TemplateWizard](TemplateWizard/)
 - [Project 2: Name](project2/)
 - [Project 3: Name](project3/)
 
