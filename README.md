@@ -9,7 +9,7 @@ This repository contains various small projects I'm working on for fun. They cov
 ### Current Projects
 
 - [Project 1: TemplateWizard](TemplateWizard/)
-- [Project 2: Name](project2/)
+- [Project 2: NextjsWithAsp](NextjsWithAsp/)
 - [Project 3: Name](project3/)
 
 ## Getting Started
