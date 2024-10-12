@@ -1,0 +1,1 @@
+D:\Projects\react\AspWithFrameworks\NextjsWithAsp\nextjswithasp.client\obj\Release\nextjswithasp.client.esproj.CoreCompileInputs.cache

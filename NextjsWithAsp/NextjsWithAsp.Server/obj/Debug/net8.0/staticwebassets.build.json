@@ -1,0 +1,31 @@
+{
+  "Version": 1,
+  "Hash": "dDBzygnKOdnDrwBd3WKFMm9/tanDWYJAx/B9rc62XpA=",
+  "Source": "NextjsWithAsp.Server",
+  "BasePath": "_content/NextjsWithAsp.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "D:\\Projects\\Fun_Projects\\NextjsWithAsp\\nextjswithasp.client\\nextjswithasp.client.esproj",
+      "Version": 2,
+      "Source": "nextjswithasp.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [
+    {
+      "Name": "NextjsWithAsp.Server\\wwwroot",
+      "Source": "NextjsWithAsp.Server",
+      "ContentRoot": "D:\\Projects\\Fun_Projects\\NextjsWithAsp\\NextjsWithAsp.Server\\wwwroot\\",
+      "BasePath": "_content/NextjsWithAsp.Server",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

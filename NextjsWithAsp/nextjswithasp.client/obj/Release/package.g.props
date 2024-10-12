@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project>
+  <PropertyGroup>
+    <PackageJsonName Condition="$(PackageJsonName) == ''">nextjswithasp.client</PackageJsonName>
+    <PackageJsonVersion Condition="$(PackageJsonVersion) == ''">0.1.0</PackageJsonVersion>
+    <PackageJsonPrivate Condition="$(PackageJsonPrivate) == ''">true</PackageJsonPrivate>
+    <PackageJsonScriptsDev Condition="$(PackageJsonScriptsDev) == ''">concurrently "next dev" "wait-on http://localhost:3000 &amp;&amp; start http://localhost:3000"</PackageJsonScriptsDev>
+    <PackageJsonScriptsBuild Condition="$(PackageJsonScriptsBuild) == ''">next build</PackageJsonScriptsBuild>
+    <PackageJsonScriptsStart Condition="$(PackageJsonScriptsStart) == ''">next start</PackageJsonScriptsStart>
+    <PackageJsonScriptsLint Condition="$(PackageJsonScriptsLint) == ''">next lint</PackageJsonScriptsLint>
+    <PackageJsonDependenciesReact Condition="$(PackageJsonDependenciesReact) == ''">^18</PackageJsonDependenciesReact>
+    <PackageJsonDependenciesReactDom Condition="$(PackageJsonDependenciesReactDom) == ''">^18</PackageJsonDependenciesReactDom>
+    <PackageJsonDependenciesNext Condition="$(PackageJsonDependenciesNext) == ''">14.2.14</PackageJsonDependenciesNext>
+    <PackageJsonDevdependenciesConcurrently Condition="$(PackageJsonDevdependenciesConcurrently) == ''">^9.0.1</PackageJsonDevdependenciesConcurrently>
+    <PackageJsonDevdependenciesPostcss Condition="$(PackageJsonDevdependenciesPostcss) == ''">^8</PackageJsonDevdependenciesPostcss>
+    <PackageJsonDevdependenciesTailwindcss Condition="$(PackageJsonDevdependenciesTailwindcss) == ''">^3.4.1</PackageJsonDevdependenciesTailwindcss>
+    <PackageJsonDevdependenciesWaitOn Condition="$(PackageJsonDevdependenciesWaitOn) == ''">^8.0.1</PackageJsonDevdependenciesWaitOn>
+  </PropertyGroup>
+</Project>

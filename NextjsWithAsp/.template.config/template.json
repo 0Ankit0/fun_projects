@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Ankit Poudyal",
+  "classifications": ["Web", "Next.js", "ASP.NET Core"],
+  "identity": "NextjsWithAsp.Template",
+  "name": "Next.js with ASP.NET Core",
+  "shortName": "nextjswithasp",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "NextjsWithAsp",
+  "preferNameDirectory": true,
+  "sources": [
+    {
+      "source": "./",
+      "target": "./",
+      "rename": {
+        "NextjsWithAsp.Server": "ServerName",
+        "nextjswithasp.client": "clientname"
+      },
+      "exclude": [
+        "**/[Bb]in/**",
+        "**/[Oo]bj/**",
+        ".template.config/**"
+      ]
+    }
+  ],
+  "primaryOutputs": [
+    {
+      "path": "ServerName/ServerName.csproj"
+    },
+    {
+      "path": "clientname/clientname.esproj"
+    }
+  ],
+  "postActions": [
+    {
+      "actionId": "F2A71F9B-5D33-4650-8B8E-0B5AAB8E7BFA",
+      "args": {
+        "files": "NextjsWithAsp.sln"
+      },
+      "manualInstructions": [
+        {
+          "text": "Manually open the solution file to ensure both projects are included."
+        }
+      ],
+      "continueOnError": true,
+      "description": "Open the solution file."
+    }
+  ]
+}
