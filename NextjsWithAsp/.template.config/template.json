@@ -9,15 +9,14 @@
     "language": "C#",
     "type": "project"
   },
-  "sourceName": "NextjsWithAsp",
+  "sourceName": "nextjswithasp",
   "preferNameDirectory": true,
   "sources": [
     {
       "source": "./",
       "target": "./",
       "rename": {
-        "NextjsWithAsp.Server": "ServerName",
-        "nextjswithasp.client": "clientname"
+        "NextjsWithAsp": "nextjswithasp"
       },
       "exclude": [
         "**/[Bb]in/**",
@@ -28,10 +27,10 @@
   ],
   "primaryOutputs": [
     {
-      "path": "ServerName/ServerName.csproj"
+      "path": "nextjswithasp.Server/nextjswithasp.Server.csproj"
     },
     {
-      "path": "clientname/clientname.esproj"
+      "path": "nextjswithasp.client/nextjswithasp.client.esproj"
     }
   ],
   "postActions": [
