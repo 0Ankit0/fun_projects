@@ -14,7 +14,7 @@ This template is a modification of the ReactWithAsp template to use Next.js inst
 1. Clone the repository:
 
    ```sh
-   git clone [https://github.com/yourusername/NextjsWithAsp.git](https://github.com/0Ankit0/fun_projects.git)
+   git clone https://github.com/0Ankit0/fun_projects.git
    cd NextjsWithAsp
    ```
 
