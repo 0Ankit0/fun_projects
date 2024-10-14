@@ -3,36 +3,16 @@
   "WorkspaceRootPath": "D:\\Projects\\Fun_Projects\\TemplateWizard\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5A340D2B-0CF0-449E-BDC9-67D05701EDF5}|TemplateWizard.csproj|d:\\projects\\fun_projects\\templatewizard\\initialguicommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A340D2B-0CF0-449E-BDC9-67D05701EDF5}|TemplateWizard.csproj|solutionrelative:initialguicommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16AF2157-839B-4F51-89C4-D8C10D88DBC3}|TemplateWizard.csproj|d:\\projects\\fun_projects\\templatewizard\\source.extension.vsixmanifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{16AF2157-839B-4F51-89C4-D8C10D88DBC3}|TemplateWizard.csproj|solutionrelative:source.extension.vsixmanifest||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A340D2B-0CF0-449E-BDC9-67D05701EDF5}|TemplateWizard.csproj|d:\\projects\\fun_projects\\templatewizard\\initialgui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A340D2B-0CF0-449E-BDC9-67D05701EDF5}|TemplateWizard.csproj|solutionrelative:initialgui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16AF2157-839B-4F51-89C4-D8C10D88DBC3}|TemplateWizard.csproj|d:\\projects\\fun_projects\\templatewizard\\mycommand.vsct||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{16AF2157-839B-4F51-89C4-D8C10D88DBC3}|TemplateWizard.csproj|solutionrelative:mycommand.vsct||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5A340D2B-0CF0-449E-BDC9-67D05701EDF5}|TemplateWizard.csproj|d:\\projects\\fun_projects\\templatewizard\\templatewizardpackage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A340D2B-0CF0-449E-BDC9-67D05701EDF5}|TemplateWizard.csproj|solutionrelative:templatewizardpackage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A340D2B-0CF0-449E-BDC9-67D05701EDF5}|TemplateWizard.csproj|d:\\projects\\fun_projects\\templatewizard\\templatewizardpackage.vsct||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{5A340D2B-0CF0-449E-BDC9-67D05701EDF5}|TemplateWizard.csproj|solutionrelative:templatewizardpackage.vsct||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A340D2B-0CF0-449E-BDC9-67D05701EDF5}|TemplateWizard.csproj|d:\\projects\\fun_projects\\templatewizard\\resources\\initialguicommand.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
-      "RelativeMoniker": "D:0:0:{5A340D2B-0CF0-449E-BDC9-67D05701EDF5}|TemplateWizard.csproj|solutionrelative:resources\\initialguicommand.png||{177559E0-D141-11D0-92DF-00A0C9138C45}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A340D2B-0CF0-449E-BDC9-67D05701EDF5}|TemplateWizard.csproj|d:\\projects\\fun_projects\\templatewizard\\initialguicontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{5A340D2B-0CF0-449E-BDC9-67D05701EDF5}|TemplateWizard.csproj|solutionrelative:initialguicontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A340D2B-0CF0-449E-BDC9-67D05701EDF5}|TemplateWizard.csproj|d:\\projects\\fun_projects\\templatewizard\\initialguicontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A340D2B-0CF0-449E-BDC9-67D05701EDF5}|TemplateWizard.csproj|solutionrelative:initialguicontrol.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5A340D2B-0CF0-449E-BDC9-67D05701EDF5}|TemplateWizard.csproj|d:\\projects\\fun_projects\\templatewizard\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5A340D2B-0CF0-449E-BDC9-67D05701EDF5}|TemplateWizard.csproj|solutionrelative:properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{16AF2157-839B-4F51-89C4-D8C10D88DBC3}|TemplateWizard.csproj|d:\\projects\\fun_projects\\templatewizard\\templatewizardpackage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16AF2157-839B-4F51-89C4-D8C10D88DBC3}|TemplateWizard.csproj|solutionrelative:templatewizardpackage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,78 +38,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TemplateWizardPackage.vsct",
-              "DocumentMoniker": "D:\\Projects\\Fun_Projects\\TemplateWizard\\TemplateWizardPackage.vsct",
-              "RelativeDocumentMoniker": "TemplateWizardPackage.vsct",
-              "ToolTip": "D:\\Projects\\Fun_Projects\\TemplateWizard\\TemplateWizardPackage.vsct",
-              "RelativeToolTip": "TemplateWizardPackage.vsct",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
-              "WhenOpened": "2024-10-11T09:11:41.205Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "InitialGUICommand.png - PNG [96x16, 32 bit, PNG]",
-              "DocumentMoniker": "D:\\Projects\\Fun_Projects\\TemplateWizard\\Resources\\InitialGUICommand.png",
-              "RelativeDocumentMoniker": "Resources\\InitialGUICommand.png",
-              "ToolTip": "D:\\Projects\\Fun_Projects\\TemplateWizard\\Resources\\InitialGUICommand.png - PNG [96x16, 32 bit, PNG]",
-              "RelativeToolTip": "Resources\\InitialGUICommand.png - PNG [96x16, 32 bit, PNG]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
-              "WhenOpened": "2024-10-11T09:11:13.942Z",
-              "EditorCaption": " - PNG [96x16, 32 bit, PNG]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "InitialGUIControl.xaml.cs",
-              "DocumentMoniker": "D:\\Projects\\Fun_Projects\\TemplateWizard\\InitialGUIControl.xaml.cs",
-              "RelativeDocumentMoniker": "InitialGUIControl.xaml.cs",
-              "ToolTip": "D:\\Projects\\Fun_Projects\\TemplateWizard\\InitialGUIControl.xaml.cs",
-              "RelativeToolTip": "InitialGUIControl.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T08:59:31.448Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "InitialGUIControl.xaml",
-              "DocumentMoniker": "D:\\Projects\\Fun_Projects\\TemplateWizard\\InitialGUIControl.xaml",
-              "RelativeDocumentMoniker": "InitialGUIControl.xaml",
-              "ToolTip": "D:\\Projects\\Fun_Projects\\TemplateWizard\\InitialGUIControl.xaml",
-              "RelativeToolTip": "InitialGUIControl.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-10-11T08:53:21.519Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "InitialGUI.cs",
-              "DocumentMoniker": "D:\\Projects\\Fun_Projects\\TemplateWizard\\InitialGUI.cs",
-              "RelativeDocumentMoniker": "InitialGUI.cs",
-              "ToolTip": "D:\\Projects\\Fun_Projects\\TemplateWizard\\InitialGUI.cs",
-              "RelativeToolTip": "InitialGUI.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T08:49:44.495Z",
+              "Title": "MyCommand.vsct",
+              "DocumentMoniker": "D:\\Projects\\Fun_Projects\\TemplateWizard\\MyCommand.vsct",
+              "RelativeDocumentMoniker": "MyCommand.vsct",
+              "ToolTip": "D:\\Projects\\Fun_Projects\\TemplateWizard\\MyCommand.vsct",
+              "RelativeToolTip": "MyCommand.vsct",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
+              "WhenOpened": "2024-10-14T01:45:31.893Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "InitialGUICommand.cs",
-              "DocumentMoniker": "D:\\Projects\\Fun_Projects\\TemplateWizard\\InitialGUICommand.cs",
-              "RelativeDocumentMoniker": "InitialGUICommand.cs",
-              "ToolTip": "D:\\Projects\\Fun_Projects\\TemplateWizard\\InitialGUICommand.cs",
-              "RelativeToolTip": "InitialGUICommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T08:49:27.223Z",
+              "Title": "source.extension.vsixmanifest",
+              "DocumentMoniker": "D:\\Projects\\Fun_Projects\\TemplateWizard\\source.extension.vsixmanifest",
+              "RelativeDocumentMoniker": "source.extension.vsixmanifest",
+              "ToolTip": "D:\\Projects\\Fun_Projects\\TemplateWizard\\source.extension.vsixmanifest",
+              "RelativeToolTip": "source.extension.vsixmanifest",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
+              "WhenOpened": "2024-10-14T01:44:19.573Z",
               "EditorCaption": ""
             },
             {
@@ -140,22 +70,9 @@
               "RelativeDocumentMoniker": "TemplateWizardPackage.cs",
               "ToolTip": "D:\\Projects\\Fun_Projects\\TemplateWizard\\TemplateWizardPackage.cs",
               "RelativeToolTip": "TemplateWizardPackage.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAvwBUAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T08:42:58.115Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "D:\\Projects\\Fun_Projects\\TemplateWizard\\Properties\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "Properties\\AssemblyInfo.cs",
-              "ToolTip": "D:\\Projects\\Fun_Projects\\TemplateWizard\\Properties\\AssemblyInfo.cs",
-              "RelativeToolTip": "Properties\\AssemblyInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-11T08:42:51.382Z",
+              "WhenOpened": "2024-10-14T01:35:04.297Z",
               "EditorCaption": ""
             }
           ]

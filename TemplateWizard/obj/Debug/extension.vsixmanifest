@@ -1,10 +1,8 @@
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011">
   <Metadata>
-    <Identity Id="TemplateWizard.e5665bab-77fa-4585-9cb6-85a27f28559c" Version="1.0" Language="en-US" Publisher="ankit paudel" />
+    <Identity Id="TemplateWizard.b6e5b9a0-2839-4d0d-91ea-9ff93b8afda8" Version="1.0" Language="en-US" Publisher="ankit paudel" />
     <DisplayName>TemplateWizard</DisplayName>
-    <Description xml:space="preserve">A project to create file using template</Description>
-    <Tags>template,c#</Tags>
-    <Preview>true</Preview>
+    <Description>An extension to create file using template and passing models to that template.</Description>
   </Metadata>
   <Installation>
     <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[17.0, 18.0)">
@@ -19,5 +17,6 @@
   </Prerequisites>
   <Assets>
     <Asset Type="Microsoft.VisualStudio.VsPackage" Path="TemplateWizard.pkgdef" />
+    <Asset Type="Microsoft.VisualStudio.Services.Command" Path="MyCommand.vsct" />
   </Assets>
 </PackageManifest>

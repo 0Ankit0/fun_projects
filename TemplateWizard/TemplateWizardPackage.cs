@@ -25,14 +25,12 @@ namespace TemplateWizard
     /// </remarks>
     [PackageRegistration(UseManagedResourcesOnly = true, AllowsBackgroundLoading = true)]
     [Guid(TemplateWizardPackage.PackageGuidString)]
-    [ProvideMenuResource("Menus.ctmenu", 1)]
-    [ProvideToolWindow(typeof(InitialGUI))]
     public sealed class TemplateWizardPackage : AsyncPackage
     {
         /// <summary>
         /// TemplateWizardPackage GUID string.
         /// </summary>
-        public const string PackageGuidString = "7003b727-a481-4cd2-a9bf-b4b243f9d795";
+        public const string PackageGuidString = "06135d29-f75a-49d0-b7f0-8566dd369bfa";
 
         #region Package Members
 
@@ -48,7 +46,6 @@ namespace TemplateWizard
             // When initialized asynchronously, the current thread may be a background thread at this point.
             // Do any initialization that requires the UI thread after switching to the UI thread.
             await this.JoinableTaskFactory.SwitchToMainThreadAsync(cancellationToken);
-            await InitialGUICommand.InitializeAsync(this);
         }
 
         #endregion
