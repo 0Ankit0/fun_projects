@@ -14,20 +14,20 @@ This template is a modification of the ReactWithAsp template to use Next.js inst
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/yourusername/NextjsWithAsp.git
+   git clone https://github.com/0Ankit0/fun_projects.git
    cd NextjsWithAsp
    ```
 
 2. Install client-side dependencies:
 
    ```sh
-   cd ClientApp
+   cd projectname.client
    npm install
    ```
 
 3. Restore server-side dependencies:
    ```sh
-   cd ..
+   cd projectname.Server
    dotnet restore
    ```
 
@@ -50,14 +50,11 @@ This template is a modification of the ReactWithAsp template to use Next.js inst
 If the client does not run correctly, try deleting the `node_modules` folder and reinstalling the packages:
 
 ```sh
-cd ClientApp
+cd projectname.client
 rm -rf node_modules
 npm install
 ```
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## Contributing
 
