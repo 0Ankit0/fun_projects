@@ -1,18 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Projects\\Fun_Projects\\TemplateWizard\\",
+  "WorkspaceRootPath": "I:\\vsix\\fun_projects\\TemplateWizard\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{16AF2157-839B-4F51-89C4-D8C10D88DBC3}|TemplateWizard.csproj|d:\\projects\\fun_projects\\templatewizard\\mycommand.vsct||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{16AF2157-839B-4F51-89C4-D8C10D88DBC3}|TemplateWizard.csproj|solutionrelative:mycommand.vsct||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{A71C63F1-F9D6-4AC4-A790-4FA0D1FDE856}|TemplateWizard.csproj|i:\\vsix\\fun_projects\\templatewizard\\vscommandtable.vsct||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A71C63F1-F9D6-4AC4-A790-4FA0D1FDE856}|TemplateWizard.csproj|solutionrelative:vscommandtable.vsct||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16AF2157-839B-4F51-89C4-D8C10D88DBC3}|TemplateWizard.csproj|D:\\Projects\\Fun_Projects\\TemplateWizard\\mycommand.vsct||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{16AF2157-839B-4F51-89C4-D8C10D88DBC3}|TemplateWizard.csproj|solutionrelative:mycommand.vsct||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{A71C63F1-F9D6-4AC4-A790-4FA0D1FDE856}|TemplateWizard.csproj|i:\\vsix\\fun_projects\\templatewizard\\source.extension.vsixmanifest||{2868F8ED-DE25-439D-9F59-AD52458E9328}",
+      "RelativeMoniker": "D:0:0:{A71C63F1-F9D6-4AC4-A790-4FA0D1FDE856}|TemplateWizard.csproj|solutionrelative:source.extension.vsixmanifest||{2868F8ED-DE25-439D-9F59-AD52458E9328}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16AF2157-839B-4F51-89C4-D8C10D88DBC3}|TemplateWizard.csproj|D:\\Projects\\Fun_Projects\\TemplateWizard\\templatewizardpackage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16AF2157-839B-4F51-89C4-D8C10D88DBC3}|TemplateWizard.csproj|solutionrelative:templatewizardpackage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A71C63F1-F9D6-4AC4-A790-4FA0D1FDE856}|TemplateWizard.csproj|i:\\vsix\\fun_projects\\templatewizard\\templatewizardpackage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A71C63F1-F9D6-4AC4-A790-4FA0D1FDE856}|TemplateWizard.csproj|solutionrelative:templatewizardpackage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A71C63F1-F9D6-4AC4-A790-4FA0D1FDE856}|TemplateWizard.csproj|i:\\vsix\\fun_projects\\templatewizard\\commands\\mycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A71C63F1-F9D6-4AC4-A790-4FA0D1FDE856}|TemplateWizard.csproj|solutionrelative:commands\\mycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,16 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -41,42 +37,58 @@
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0174dea2-fdbe-4ef1-8f99-c0beae78880f}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MyCommand.vsct",
-              "DocumentMoniker": "D:\\Projects\\Fun_Projects\\TemplateWizard\\MyCommand.vsct",
-              "RelativeDocumentMoniker": "MyCommand.vsct",
-              "ToolTip": "D:\\Projects\\Fun_Projects\\TemplateWizard\\MyCommand.vsct",
-              "RelativeToolTip": "MyCommand.vsct",
-              "ViewState": "AgIAABAAAAAAAAAAAAAkwBkAAAAAAAAAAAAAAA==",
+              "Title": "VSCommandTable.vsct",
+              "DocumentMoniker": "I:\\vsix\\fun_projects\\TemplateWizard\\VSCommandTable.vsct",
+              "RelativeDocumentMoniker": "VSCommandTable.vsct",
+              "ToolTip": "I:\\vsix\\fun_projects\\TemplateWizard\\VSCommandTable.vsct",
+              "RelativeToolTip": "VSCommandTable.vsct",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
-              "WhenOpened": "2024-10-15T00:38:17.909Z",
+              "WhenOpened": "2024-10-15T05:30:20.948Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MyCommand.vsct",
-              "DocumentMoniker": "D:\\Projects\\Fun_Projects\\TemplateWizard\\MyCommand.vsct",
-              "RelativeDocumentMoniker": "MyCommand.vsct",
-              "ToolTip": "D:\\Projects\\Fun_Projects\\TemplateWizard\\MyCommand.vsct",
-              "RelativeToolTip": "MyCommand.vsct",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Title": "source.extension.vsixmanifest [Design]",
+              "DocumentMoniker": "I:\\vsix\\fun_projects\\TemplateWizard\\source.extension.vsixmanifest",
+              "RelativeDocumentMoniker": "source.extension.vsixmanifest",
+              "ToolTip": "I:\\vsix\\fun_projects\\TemplateWizard\\source.extension.vsixmanifest [Design]",
+              "RelativeToolTip": "source.extension.vsixmanifest [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003464|",
-              "WhenOpened": "2024-10-14T01:45:31.893Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-15T05:30:16.126Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "TemplateWizardPackage.cs",
-              "DocumentMoniker": "D:\\Projects\\Fun_Projects\\TemplateWizard\\TemplateWizardPackage.cs",
+              "DocumentMoniker": "I:\\vsix\\fun_projects\\TemplateWizard\\TemplateWizardPackage.cs",
               "RelativeDocumentMoniker": "TemplateWizardPackage.cs",
-              "ToolTip": "D:\\Projects\\Fun_Projects\\TemplateWizard\\TemplateWizardPackage.cs",
+              "ToolTip": "I:\\vsix\\fun_projects\\TemplateWizard\\TemplateWizardPackage.cs",
               "RelativeToolTip": "TemplateWizardPackage.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-14T01:35:04.297Z",
+              "WhenOpened": "2024-10-15T05:30:13.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MyCommand.cs",
+              "DocumentMoniker": "I:\\vsix\\fun_projects\\TemplateWizard\\Commands\\MyCommand.cs",
+              "RelativeDocumentMoniker": "Commands\\MyCommand.cs",
+              "ToolTip": "I:\\vsix\\fun_projects\\TemplateWizard\\Commands\\MyCommand.cs",
+              "RelativeToolTip": "Commands\\MyCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-15T05:30:07.831Z",
               "EditorCaption": ""
             }
           ]
