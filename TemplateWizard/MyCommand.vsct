@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <CommandTable>
-  <Commands>
-    <Group guid="guidMyCommandGroup" id="MyCommandGroupId" priority="0x0100">
-      <Parent guid="guidSHLMainMenu" id="IDG_VS_MENU_TOOLS"/>
-      <Entry id="MyCommandId" command="cmdidMyCommand" priority="0x0100" />
-    </Group>
-    
-    <Button guid="guidMyCommandGroup" id="MyCommandId" priority="0x0100" type="Button">
-      <Parent guid="guidMyCommandGroup" id="MyCommandGroupId"/>
-      <Icon>MyIcon.png</Icon>
-      <CommandFlag>DynamicVisibility</CommandFlag>
-      <Strings>
-        <ButtonText>My Command</ButtonText>
-      </Strings>
-    </Button>
-  </Commands>
+	<Commands>
+		<Group guid="guidMyCommandPackageCmdSet" id="MyCommandGroupId" priority="0x0100">
+			<Parent guid="guidSHLMainMenu" id="IDG_VS_MENU_EXTENSIONS"/>
+			<Entry id="MyCommandId" command="cmdidMyCommand" priority="0x0100" />
+		</Group>
+
+		<Button guid="guidMyCommandPackageCmdSet" id="MyCommandId" priority="0x0100" type="Button">
+			<Parent guid="guidMyCommandPackageCmdSet" id="MyCommandGroupId"/>
+			<Icon>MyIcon.png</Icon>
+			<CommandFlag>DynamicVisibility</CommandFlag>
+			<Strings>
+				<ButtonText>My Command</ButtonText>
+			</Strings>
+		</Button>
+	</Commands>
+
+	<Symbols>
+		<GuidSymbol name="guidMyCommandPackageCmdSet" value="{BFB30758-6417-478F-B397-0BAE31A6E99A}">
+			<IDSymbol name="MyCommandGroupId" value="0x1020" />
+			<IDSymbol name="MyCommandId" value="0x0100" />
+		</GuidSymbol>
+	</Symbols>
 </CommandTable>
