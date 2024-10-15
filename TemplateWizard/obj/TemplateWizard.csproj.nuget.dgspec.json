@@ -1,32 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\Fun_Projects\\TemplateWizard\\TemplateWizard.csproj": {}
+    "I:\\vsix\\fun_projects\\TemplateWizard\\TemplateWizard.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\Fun_Projects\\TemplateWizard\\TemplateWizard.csproj": {
+    "I:\\vsix\\fun_projects\\TemplateWizard\\TemplateWizard.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\Fun_Projects\\TemplateWizard\\TemplateWizard.csproj",
+        "projectUniqueName": "I:\\vsix\\fun_projects\\TemplateWizard\\TemplateWizard.csproj",
         "projectName": "TemplateWizard",
-        "projectPath": "D:\\Projects\\Fun_Projects\\TemplateWizard\\TemplateWizard.csproj",
-        "packagesPath": "C:\\Users\\ankit\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\Fun_Projects\\TemplateWizard\\obj\\",
+        "projectPath": "I:\\vsix\\fun_projects\\TemplateWizard\\TemplateWizard.csproj",
+        "packagesPath": "C:\\Users\\insoft\\.nuget\\packages\\",
+        "outputPath": "I:\\vsix\\fun_projects\\TemplateWizard\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
-          "C:\\Users\\ankit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\insoft\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net472"
+          "net48"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net472": {
+          "net48": {
             "projectReferences": {}
           }
         },
@@ -37,24 +37,22 @@
         }
       },
       "frameworks": {
-        "net472": {
+        "net48": {
           "dependencies": {
-            "Microsoft.VSSDK.BuildTools": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[17.11.435, )"
-            },
-            "Microsoft.VisualStudio.SDK": {
+            "Community.VisualStudio.Toolkit.17": {
               "include": "Compile, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "target": "Package",
-              "version": "[17.0.32112.339, )"
+              "version": "[17.0.451, )"
             },
-            "Microsoft.VisualStudio.SDK.Analyzers": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "Community.VisualStudio.VSCT": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[17.7.41, )"
+              "version": "[16.0.29.6, )"
+            },
+            "Microsoft.VSSDK.BuildTools": {
+              "target": "Package",
+              "version": "[17.0.5232, )",
+              "generatePathProperty": true
             }
           }
         }
