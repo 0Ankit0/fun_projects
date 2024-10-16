@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "I:\\vsix\\fun_projects\\TemplateWizard\\TemplateWizard.csproj": {}
+    "D:\\Projects\\Fun_Projects\\TemplateWizard\\TemplateWizard.csproj": {}
   },
   "projects": {
-    "I:\\vsix\\fun_projects\\TemplateWizard\\TemplateWizard.csproj": {
+    "D:\\Projects\\Fun_Projects\\TemplateWizard\\TemplateWizard.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\vsix\\fun_projects\\TemplateWizard\\TemplateWizard.csproj",
+        "projectUniqueName": "D:\\Projects\\Fun_Projects\\TemplateWizard\\TemplateWizard.csproj",
         "projectName": "TemplateWizard",
-        "projectPath": "I:\\vsix\\fun_projects\\TemplateWizard\\TemplateWizard.csproj",
-        "packagesPath": "C:\\Users\\insoft\\.nuget\\packages\\",
-        "outputPath": "I:\\vsix\\fun_projects\\TemplateWizard\\obj\\",
+        "projectPath": "D:\\Projects\\Fun_Projects\\TemplateWizard\\TemplateWizard.csproj",
+        "packagesPath": "C:\\Users\\ankit\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\Fun_Projects\\TemplateWizard\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
-          "C:\\Users\\insoft\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ankit\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -48,6 +48,22 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[16.0.29.6, )"
+            },
+            "Microsoft-WindowsAPICodePack-Shell": {
+              "target": "Package",
+              "version": "[1.1.5, )"
+            },
+            "Microsoft.Build.Locator": {
+              "target": "Package",
+              "version": "[1.7.8, )"
+            },
+            "Microsoft.CodeAnalysis.CSharp": {
+              "target": "Package",
+              "version": "[4.11.0, )"
+            },
+            "Microsoft.CodeAnalysis.Workspaces.MSBuild": {
+              "target": "Package",
+              "version": "[4.11.0, )"
             },
             "Microsoft.VSSDK.BuildTools": {
               "target": "Package",

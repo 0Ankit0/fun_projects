@@ -5,22 +5,25 @@
     <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
     <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
     <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">$(UserProfile)\.nuget\packages\</NuGetPackageRoot>
-    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\insoft\.nuget\packages\</NuGetPackageFolders>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">C:\Users\ankit\.nuget\packages\</NuGetPackageFolders>
     <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">PackageReference</NuGetProjectStyle>
     <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.11.1</NuGetToolVersion>
   </PropertyGroup>
   <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <SourceRoot Include="C:\Users\insoft\.nuget\packages\" />
+    <SourceRoot Include="C:\Users\ankit\.nuget\packages\" />
   </ItemGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)microsoft.vssdk.buildtools\17.0.5232\build\Microsoft.VSSDK.BuildTools.props" Condition="Exists('$(NuGetPackageRoot)microsoft.vssdk.buildtools\17.0.5232\build\Microsoft.VSSDK.BuildTools.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.codeanalysis.analyzers\3.3.4\buildTransitive\Microsoft.CodeAnalysis.Analyzers.props" Condition="Exists('$(NuGetPackageRoot)microsoft.codeanalysis.analyzers\3.3.4\buildTransitive\Microsoft.CodeAnalysis.Analyzers.props')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.build.locator\1.7.8\build\Microsoft.Build.Locator.props" Condition="Exists('$(NuGetPackageRoot)microsoft.build.locator\1.7.8\build\Microsoft.Build.Locator.props')" />
     <Import Project="$(NuGetPackageRoot)community.visualstudio.vsct\16.0.29.6\build\Community.VisualStudio.VSCT.props" Condition="Exists('$(NuGetPackageRoot)community.visualstudio.vsct\16.0.29.6\build\Community.VisualStudio.VSCT.props')" />
     <Import Project="$(NuGetPackageRoot)community.visualstudio.toolkit.17\17.0.451\build\Community.VisualStudio.Toolkit.17.props" Condition="Exists('$(NuGetPackageRoot)community.visualstudio.toolkit.17\17.0.451\build\Community.VisualStudio.Toolkit.17.props')" />
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgMicrosoft_VisualStudio_Threading_Analyzers Condition=" '$(PkgMicrosoft_VisualStudio_Threading_Analyzers)' == '' ">C:\Users\insoft\.nuget\packages\microsoft.visualstudio.threading.analyzers\17.0.64</PkgMicrosoft_VisualStudio_Threading_Analyzers>
-    <PkgMicrosoft_VisualStudio_SDK_Analyzers Condition=" '$(PkgMicrosoft_VisualStudio_SDK_Analyzers)' == '' ">C:\Users\insoft\.nuget\packages\microsoft.visualstudio.sdk.analyzers\15.8.33</PkgMicrosoft_VisualStudio_SDK_Analyzers>
-    <PkgMicrosoft_VSSDK_BuildTools Condition=" '$(PkgMicrosoft_VSSDK_BuildTools)' == '' ">C:\Users\insoft\.nuget\packages\microsoft.vssdk.buildtools\17.0.5232</PkgMicrosoft_VSSDK_BuildTools>
-    <PkgCommunity_VisualStudio_Toolkit_Analyzers Condition=" '$(PkgCommunity_VisualStudio_Toolkit_Analyzers)' == '' ">C:\Users\insoft\.nuget\packages\community.visualstudio.toolkit.analyzers\1.0.451</PkgCommunity_VisualStudio_Toolkit_Analyzers>
+    <PkgMicrosoft_VisualStudio_Threading_Analyzers Condition=" '$(PkgMicrosoft_VisualStudio_Threading_Analyzers)' == '' ">C:\Users\ankit\.nuget\packages\microsoft.visualstudio.threading.analyzers\17.0.64</PkgMicrosoft_VisualStudio_Threading_Analyzers>
+    <PkgMicrosoft_VisualStudio_SDK_Analyzers Condition=" '$(PkgMicrosoft_VisualStudio_SDK_Analyzers)' == '' ">C:\Users\ankit\.nuget\packages\microsoft.visualstudio.sdk.analyzers\15.8.33</PkgMicrosoft_VisualStudio_SDK_Analyzers>
+    <PkgMicrosoft_VSSDK_BuildTools Condition=" '$(PkgMicrosoft_VSSDK_BuildTools)' == '' ">C:\Users\ankit\.nuget\packages\microsoft.vssdk.buildtools\17.0.5232</PkgMicrosoft_VSSDK_BuildTools>
+    <PkgMicrosoft_CodeAnalysis_Analyzers Condition=" '$(PkgMicrosoft_CodeAnalysis_Analyzers)' == '' ">C:\Users\ankit\.nuget\packages\microsoft.codeanalysis.analyzers\3.3.4</PkgMicrosoft_CodeAnalysis_Analyzers>
+    <PkgCommunity_VisualStudio_Toolkit_Analyzers Condition=" '$(PkgCommunity_VisualStudio_Toolkit_Analyzers)' == '' ">C:\Users\ankit\.nuget\packages\community.visualstudio.toolkit.analyzers\1.0.451</PkgCommunity_VisualStudio_Toolkit_Analyzers>
   </PropertyGroup>
 </Project>
