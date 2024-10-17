@@ -150,7 +150,7 @@ namespace TemplateWizard.Windows
             string templateDirectory = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Template");
             if (Directory.Exists(templateDirectory))
             {
-                var templateFiles = Directory.GetFiles(templateDirectory, "*.t4");
+                var templateFiles = Directory.GetFiles(templateDirectory, "*.tt");
                 foreach (var file in templateFiles)
                 {
                     Templates.Add(file);
@@ -174,7 +174,7 @@ namespace TemplateWizard.Windows
         {
             var dlg = new CommonOpenFileDialog
             {
-                Filters = { new CommonFileDialogFilter("T4 Files", "*.t4") }
+                Filters = { new CommonFileDialogFilter("T4 Files", "*.tt") }
             };
             if (dlg.ShowDialog() == CommonFileDialogResult.Ok)
             {
