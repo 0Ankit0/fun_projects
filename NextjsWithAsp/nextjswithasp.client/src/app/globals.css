@@ -4,24 +4,20 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+  --foreground: #000000;
+  --primary: #2563EB;
+  --primary-light: #93C5FD;
+  --primary-dark: #1E40AF;
+  --secondary: #9333EA;
+  --secondary-light: #D8B4FE;
+  --secondary-dark: #7E22CE;
+  --success: #10B981;
+  --success-light: #6EE7B7;
+  --success-dark: #047857;
+  --warning: #F59E0B;
+  --warning-light: #FCD34D;
+  --warning-dark: #f75c02;
+  --light-default: #ffffff;
+  --light-light: #e5e7eb;
+  --light-dark: #374151;
 }
