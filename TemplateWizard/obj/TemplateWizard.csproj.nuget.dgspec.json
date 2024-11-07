@@ -1,21 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "I:\\vsix\\fun_projects\\TemplateWizard\\TemplateWizard.csproj": {}
+    "D:\\Projects\\fun_projects\\TemplateWizard\\TemplateWizard.csproj": {}
   },
   "projects": {
-    "I:\\vsix\\fun_projects\\TemplateWizard\\TemplateWizard.csproj": {
+    "D:\\Projects\\fun_projects\\TemplateWizard\\TemplateWizard.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\vsix\\fun_projects\\TemplateWizard\\TemplateWizard.csproj",
+        "projectUniqueName": "D:\\Projects\\fun_projects\\TemplateWizard\\TemplateWizard.csproj",
         "projectName": "TemplateWizard",
-        "projectPath": "I:\\vsix\\fun_projects\\TemplateWizard\\TemplateWizard.csproj",
-        "packagesPath": "C:\\Users\\insoft\\.nuget\\packages\\",
-        "outputPath": "I:\\vsix\\fun_projects\\TemplateWizard\\obj\\",
+        "projectPath": "D:\\Projects\\fun_projects\\TemplateWizard\\TemplateWizard.csproj",
+        "packagesPath": "C:\\Users\\ankit\\.nuget\\packages\\",
+        "outputPath": "D:\\Projects\\fun_projects\\TemplateWizard\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "configFilePaths": [
-          "C:\\Users\\insoft\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ankit\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -69,6 +69,10 @@
               "target": "Package",
               "version": "[17.0.5232, )",
               "generatePathProperty": true
+            },
+            "WindowsAPICodePack-Shell": {
+              "target": "Package",
+              "version": "[1.1.1, )"
             }
           }
         }

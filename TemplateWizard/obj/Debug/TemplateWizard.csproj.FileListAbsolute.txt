@@ -215,7 +215,6 @@ D:\Projects\Fun_Projects\TemplateWizard\bin\Debug\BuildHost-netcore\runtimes\bro
 D:\Projects\Fun_Projects\TemplateWizard\bin\Debug\BuildHost-netcore\tr\System.CommandLine.resources.dll
 D:\Projects\Fun_Projects\TemplateWizard\bin\Debug\BuildHost-netcore\zh-Hans\System.CommandLine.resources.dll
 D:\Projects\Fun_Projects\TemplateWizard\bin\Debug\BuildHost-netcore\zh-Hant\System.CommandLine.resources.dll
-D:\Projects\Fun_Projects\TemplateWizard\obj\Debug\_EmptyResource.resources.original
 D:\Projects\Fun_Projects\TemplateWizard\obj\Debug\TemplateWizard.GeneratedMSBuildEditorConfig.editorconfig
 I:\vsix\fun_projects\TemplateWizard\bin\Debug\Humanizer.dll
 I:\vsix\fun_projects\TemplateWizard\bin\Debug\Microsoft.WindowsAPICodePack.dll
